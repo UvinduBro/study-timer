@@ -11,7 +11,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #87a5f8;
+  background: #618bff;
 }
 .container {
   position: relative;
@@ -92,6 +92,50 @@ button:hover {
     border-radius: 8px;
     color: #fff;
     background: #f7876e;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .start:hover {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    background: #47ff5a;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .pause:hover {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    background: #f7c248;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .reset:hover {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    background: #ff6355;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .break:hover {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    background: #f66a4a;
     cursor: pointer;
     transition: all 0.3s ease;
   }
